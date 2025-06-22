@@ -10,7 +10,8 @@ let storedNames = ["this is v2"]; // Renamed to indicate it's an array
 
 // GET endpoint to retrieve the stored names
 app.get('/name', (req, res) => {
-    res.json({ names: storedNames.length > 0 ? storedNames : ["No name set"] });
+    res.json({ names: storedNames.length > 0 ? storedNames : ["No name set"] })
+    
 });
 
 // POST endpoint to store a name
