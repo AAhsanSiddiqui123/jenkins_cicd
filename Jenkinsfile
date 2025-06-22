@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/AAhsanSiddiqui123/jenkins_cicd'
+                git branch: 'main', url: 'https://github.com/AAhsanSiddiqui123/jenkins_cicd.git'
             }
         }
 
